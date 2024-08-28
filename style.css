@@ -1,0 +1,82 @@
+/* <uniquifier>: Use a unique and descriptive class name
+   <weight>: Use a value from 100 to 400 */
+
+.playwrite-gb-s-<uniquifier> {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #E4EAD7; 
+ text-align: center;
+ color: #7A1518;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #7A1518;
+  text-align: center;
+  font-family: "Playwrite GB S", cursive;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #E67737
+}
+
+
+/* STYLE IMAGES */
+.heady{
+  width: 100px;
+  height: 100px;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 50%;
+  border: 2px solid #7A1518;
+}
+
+img{
+  max-height: 300px;
+  border: 2px solid #7A1518;
+}
+
+#port-pic{
+  margin: 15px;
+}
+/* STYLE NAV BAR */
+
+main {
+  text-align: center;
+  color: #7A1518;
+  font-family: monospace;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+ul{
+  list-style-type: none;
+  background-color: #7A1518;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover{
+  background-color: #4E0704;
+  padding: 1em;
+}
+
